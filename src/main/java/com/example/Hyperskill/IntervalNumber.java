@@ -9,11 +9,11 @@ public class IntervalNumber {
         int num = scanner.nextInt();
 
         if (-15 < num && num <= 12){
-            System.out.println("True1");
-        } else if (-14 < num && num < 17){
-            System.out.println("True2");
-        } if (19 <= num){
-            System.out.println("True3");
+            System.out.println("True");
+        } else if (num > 14 && num < 17){
+            System.out.println("True");
+        } else if (19 <= num){
+            System.out.println("True");
         } else{
             System.out.println("False");
         }
